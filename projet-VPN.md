@@ -11,8 +11,11 @@ Personnes:
 
 ## 1. Comment se connecter
 
+### Il faut :
+- L'addresse publique de la vm
+- Le fichier clé vpnjinq.pem
+
 ### A. Par un terminal
-- Télécharger vpnjinq.pem sur son pc
 - Ouvrir un terminal
 - Se déplacer jusqu'au fichier avec vpnjinq.pem dedans
 - entrer la commande ```ssh -i "vpnjinq.pem" ubuntu@51.20.255.255```
