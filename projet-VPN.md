@@ -53,7 +53,7 @@ Un serveur VPN a été déployé sur un serveur AWS (environnement Ubuntu) en ut
 
 ---
 
-## 3. Utilisation  du serveur
+## 3. Utilisation du serveur
 
 ### Utilisation de WGDashboard
 - **Ajout et gestion des utilisateurs VPN**
@@ -82,6 +82,7 @@ Un serveur VPN a été déployé sur un serveur AWS (environnement Ubuntu) en ut
 - `pivpn remove nom_utilisateur` : Supprimer un utilisateur spécifique
 - `pivpn debug` : Vérifier et résoudre les problèmes VPN
 - `pivpn update` : Mettre à jour PiVPN
+- `pivpn -qr` : Affiche le QR code permettant de se connecter à la vm sur téléphone
 
 ### Accès à WGDashboard
 1. Ouvrir un navigateur web et entrer `http://<IP_du_serveur>:10086` (port par défaut : 10086)
